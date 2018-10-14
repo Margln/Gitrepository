@@ -16,3 +16,14 @@ eureka:
     register-with-eureka: true
 ###是否需要从eureka上获取注册信息
     fetch-registry: true
+    
+###心跳时间与持续时间配置
+###本地测试时将值设小些，保证服务关闭时注册中心能及时剔除
+  instance:
+    ####EurekaClient向EurekaServer发送心跳包间隔时间 （单位：s）
+    lease-renewal-interval-in-seconds: 1
+    ###EurekaServer收到最后一次心跳包的等待时间上限（单位：s）
+    lease-expiration-duration-in-seconds: 2
+    
+    
+
