@@ -18,3 +18,13 @@ eureka:
     register-with-eureka: true
 ###因为自己是为注册中心，不需要检索服务
     fetch-registry: true
+  
+  server:
+   ###本地开发关闭 Eureka 自我保护机制 
+   enable-self-preservation: false
+   eviction-interval-timer-in-ms: 2000
+
+    
+        
+
+    
