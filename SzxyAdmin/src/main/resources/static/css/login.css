@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	width:100%;
+	height:100%;
+}
+body{
+	background:url(../images/login.jpg) no-repeat top center #fff;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	font-size:12px;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+
+
+/*主体样式开始*/
+.wrap{
+	width:1000px;
+	height:560px;
+	margin:0px auto;
+}
+.logo{
+	width:1000px;
+	height:137px;
+}
+.logo_right{
+	width:219px;
+	height:27px;
+	float:right;
+	padding-top:40px;
+	line-height:27px;
+	color:#4b4b4b;
+}
+.logo_right a{
+	color:#4b4b4b;
+	font-size:12px;
+}
+.logo_right a:hover{
+	color:#016d91;
+}
+.left{
+	float:left;
+	width:340px;
+	height:285px;
+	margin-left:100px;
+	_margin-left:50px;
+	color:#4c4c4c;
+	line-height:40px;
+	margin-top:35px;
+}
+.main_box{
+	width:1000px;
+	height:auto;
+	margin:0px auto;
+}
+.main{
+	width:510px;
+	height:391px;
+	float:right;
+	background:url(../images/main_03.jpg) no-repeat;
+	margin-top:29px;
+	color:#3c3c3c;
+	font-size:14px;
+	margin-right:48px;
+}
+.table{
+	width:390px;
+	margin:0px auto;
+	margin-top:80px;
+}
+.table .l_text{
+	width:213px;
+	height:26px;
+	border:1px solid #1c5180;
+	line-height:26px;
+	font-size:15px;
+}
+.table .s_text{
+	width:110px;
+	height:26px;
+	border:1px solid #1c5180;
+	line-height:26px;
+	font-size:15px;
+}
+.table .red{
+	color:#f00;
+	font-size:12px;
+}
+.table .gray{
+	color:#3c3c3b;
+	font-size:12px;
+}
+.table .btn1{
+	width:88px;
+	height:36px;
+	float:left;
+	background:url(../images/btn_03.gif) no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.table .btn2{
+	width:88px;
+	height:36px;
+	float:left;
+	background:url(../images/btn_05.gif) no-repeat;
+	margin-left:40px;
+	border:none;
+	cursor:hand;
+}
+/*主体样式结束*/
+/*错误信息样式*/
+span.cue{padding:9px 0 0 18px;background:url(../images/cu.gif) no-repeat left 12px;color:red;display:block;width:100%}
+
+ul{
+	margin:0px;
+	padding:0px;
+}
+ul li{
+	list-style:none;
+	color:#f00;
+	font-size:12px;
+	background:url(../images/cu.gif) no-repeat ;
+	padding-left:18px;
+	
+}
